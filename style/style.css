@@ -1,0 +1,183 @@
+:root {
+    --bg: #121212;
+    --blue: #0EA6F7;
+    --wihte: #fff;
+    --blu: #83c0e1;
+    --gray: #e5e5e5;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: var(--bg);
+}
+h1 {
+    display: flex;
+    justify-content: first;
+}
+h1 > .sne {
+    color: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+h1 > .aker {
+    color: var(--wihte);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.ul {
+    display: flex;
+    justify-content: center;
+}
+
+.ul>li {
+    color: var(--wihte);
+    list-style: none;
+    margin: 30px;
+    position: relative;
+    top: -50px;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: end;
+}
+
+.sign-in > button {
+    position: relative;
+    left: 90px;
+    top: -105px;
+    height: 34px;
+    width: 187px;
+    border-radius: 9px;
+    border: none;
+    background-color: var(--blue);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    box-shadow: -15px 10px 50px rgba(14, 166, 247, 0.4);
+    color: var(--wihte);
+    font-weight: bold;
+    font-size: 22px;
+}
+.man {
+    width: 17px;
+    height: 20px;
+    position: relative;
+    left: -60px;
+    top: -100px;
+}
+.ul {
+    display: flex;
+    justify-content: center;
+}
+.ul > .flesh {
+    width: 34px;
+    height: 5px;
+    position: relative;
+    left: -70px;
+}
+.Home {
+    color: var(--wihte);
+    list-style: none;
+    margin: 30px;
+    position: relative;
+    top: -50px;
+}
+.image-of-shose {
+    display: flex;
+    justify-content: right;
+}
+.image-of-shose > .shose {
+    width: 600px;
+    position: relative;
+    left: 170px;
+}
+.SNEAKERs {
+    position: relative;
+    top: -392px;
+    color: var(--wihte);
+    font-weight: 400;
+}
+.jordan-texts {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: -370px;
+}
+.jordan-text {
+    color: var(--wihte);
+    font-size: 50px;
+    font-weight: 500;
+}
+.jordan-text-blue {
+    color: var(--blue);
+    margin-left: 15px;
+    font-size: 50px;
+    font-weight: 100;
+}
+.texts {
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: -350px;
+}
+.text {
+    color: var(--wihte);
+    font-size: 13px;
+    font-weight: bold;
+}
+.Sky {
+    color: var(--blue);
+    font-size: 13px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.h6 {
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: -320px;
+}
+.h5 {
+    color: var(--gray);
+    font-size: 13px;
+    margin-top: 20px; 
+}
+.blue-buttons {
+    position: relative;
+    top: 19px;
+    width: 187px;
+    height: 34px;
+    border-radius: 9px;
+    BACKGROUND-color: var(--blue);
+    box-shadow: -15px 10px 50px rgba(14, 166, 247, 0.4);
+    border: NONE;
+    font-weight: 500;
+    color: var(--wihte);
+    font-size: 22px;
+}
+.dolor {
+    color: var(--wihte);
+    position: relative;
+    left: 230px;
+    top: -10px;
+    font-weight: 300;
+    font-size: 23px;
+}
+.MANAGER {
+    color: #fff;
+    margin-top: 50px;
+}
